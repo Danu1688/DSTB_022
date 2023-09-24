@@ -1,4 +1,17 @@
 proxies:
+- name: LikKuatNusa_LiveNusa_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 8d8a267e-3846-42d4-ae54-ae8dc2f1ee11
+  udp: true
+  sni: vpna4mvbhv.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpna4mvbhv.scpotato.me
 - name: LikKuat_LiveDO_1
   type: trojan
   server: circles.asia
